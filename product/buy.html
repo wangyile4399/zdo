@@ -1,0 +1,79 @@
+<!DOCTYPE >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0, maximum-scale=1.0">
+<meta content="telephone=no" name="format-detection" />
+<title>中东欧</title>
+
+<link rel="stylesheet" href="../css/wap/index.css" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.7.1.js"></script>
+</head>
+
+<body style="padding-top: 0;">
+	<div class="top_addr">
+		<div class="l"></div>
+		<div class="shouhuo_txt">
+			<h3>收货人:王兴<span>1546556454</span></h3>
+			<p>收货地址：按时打算打算打算到你家谁开的会就爱上空间的空间按属地哈都会</p>
+			<b>(收货不便，可可选择免费代收服务)</b>
+		</div>
+		<div class="r"></div>
+	</div>
+	<div style="background: #eeeeee; "></div>
+	<div class="main_addr">
+		<div class="main_warp">
+			<h2>新西兰进口羊毛</h2>
+			<div class="main_w_box">
+				<img src="../images/product/32.jpg" width="100px" height="100px" />
+				<h4>哈就是的环境奥斯卡的教案课件收到货款</h4>
+				<span>颜色分类:v领-墨绿色;尺码:M;</span>
+				<div class="right"><em>x1</em><i>￥79.00</i></div>
+			</div>
+		</div>
+		<div class="num">购买数量
+			<div class="num_btn">
+				<span class="s1" id="jian"></span>
+				<span class="s2">1</span>
+				<span class="s3" id="jia"></span>
+			</div>
+		</div>
+		<div class="num peisong">配送方式
+			<div class="num_btn">
+				快递&nbsp;免邮
+				<span class="s4"></span>
+			</div>
+		</div>
+		<div class="num">配送时间
+			<div class="num_btn">
+				爱啥啥还是大号是的话
+			</div>
+		</div>
+		<div class="liuyan">
+			<span class="s5">买家留言</span>
+			<div class="s6">
+				<textarea placeholder="请输入您的要求和留言"></textarea>
+			</div>
+		</div>
+	</div>
+	<div class="tijiao">
+		<div class="tijiao_left">共<em>1</em>件，总金额<i>￥79.00</i></div>
+		<div class="tijiao_right">提交订单</div>
+	</div>
+	<script>
+		$(function  () {
+			$("#jia").click(function(){
+			var n=$(".num .num_btn .s2").html();
+		    var num=parseInt(n)+1;
+		    $(".num .num_btn .s2").html(num);
+		});
+		$("#jian").click(function(){
+			var n=$(".num .num_btn .s2").html();
+		    var num=parseInt(n)-1;
+		    $(".num .num_btn .s2").html(num);
+		    if(num<=1){$(".num .num_btn .s2").html(1);}
+		});
+		})
+	</script>
+</body>
+</html>

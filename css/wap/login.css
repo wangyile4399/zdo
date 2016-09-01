@@ -1,0 +1,26 @@
+body,html,ul,li,dl,dd,h1,h2,h3,h4,h5,h6,input,p{padding: 0;margin: 0;font-size: 12px;}ul,li{list-style: none;}.cl{clear: both;}
+	body,html{font-family:\5FAE\8F6F\96C5\9ED1, "Lucida Grande", Lucida, Verdana, sans-serif;}
+	a,img,div,span,h2{-webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+	-webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */}
+	a{-webkit-tap-highlight-color:rgba(0,0,0,0.3);text-decoration: none;}
+	html{height: 100%;}
+	body{max-width: 640px; margin: 0 auto;height: 100%;background: #F5F5F5;}
+	.mg_80{ width: 80%; margin: 0 auto;}
+	header{background: #c91623; height: 60px; color: #FFFFFF; font-size: 16px;font-weight: 500;}
+/*zhuce2*/
+	.login_top{height:60px; line-height: 60px; position: relative; text-align: center;}
+	.true{margin-top: 30px;background: #c91623; border-radius: 5px; -webkit-border-radius: 5px;}
+	.true p,.false p{width: 45%;  margin: 0 auto; padding: 10px 0;}
+	.true p img,.false p img{width: 100%;}
+	.true a,.false a{width: 100%; background: #FFFFFF; display: block;text-align: center;padding: 15px 0; color: inherit; border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;}
+	.false{margin-top: 30px;background: #565656; border-radius: 5px; -webkit-border-radius: 5px;}
+/*login*/
+.content .uesr,.content .password{padding: 6px 0; background: #FFFFFF; border: 1px solid #d4d4d4; display: flex; display: -webkit-flex; margin-top: 20px; border-radius: 5px; -webkit-border-radius: 5px;}
+	.content .uesr span{display: inline-block; width: 30px; height: 30px;margin-right: 10px; float: left; background: url(../images/login.png) -46px 4px no-repeat;}
+	.content .password span{display: inline-block; width: 30px; height: 30px; margin-right: 10px; float: left; background: url(../images/login.png) -79px 4px no-repeat;}
+	.content .uesr input, .content .password input{ float: left; flex-grow: 1; border: none; outline: none;}
+	.content .login_btn input{ width: 100%; margin: 0 auto; background: #c91623; border: none; outline: none; cursor: pointer; font-size: 15px; font-weight: bold; color: #FFFFFF; padding: 15px 0; margin-top: 20px;border-radius: 5px; -webkit-border-radius: 5px;}
+	.login_note{ margin-top: 20px; overflow: hidden;}
+	.login_note a{float: right; padding-left: 20px; color: #2b2b2b;}
