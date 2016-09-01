@@ -1,0 +1,167 @@
+<!DOCTYPE >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0, maximum-scale=1.0">
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" href="../css/wap/index.css" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.7.1.js"></script>
+<link rel="stylesheet" href="../css/wap/details.css" type="text/css" />
+<title>中东欧</title>
+
+</head>
+<body>
+	<nav class="topBar">
+		<div class="l"><a class="arrow" href="javascript:history.go(-1);"></a></div>
+		<h1>商品详情</h1>
+	</nav>
+	<div class="detailsHead">
+		<div class="img">
+			<img src="../images/product/product1.jpg" alt="">
+		</div>
+		<div class="txt_box">
+			<p>春夏季韩版透气板鞋男鞋子英伦潮流行男士休闲运动鞋夏季韩版透气板鞋男鞋子英伦潮流行男士休闲运动鞋夏季韩版透气板鞋男鞋子英伦潮流行男士休闲运动鞋夏季韩版透气板鞋男鞋子英伦潮流行男士休闲运动鞋情侣帆布潮鞋</p>
+			<a href="#" class="fenxiang"><span></span>分享</a>
+		</div>
+		<div class="cl"></div>
+	</div>
+	<div class="det parity ">
+		<ul>
+			<li>
+				<a href="#"> 
+					<div class="bijia-title">二十个起批</div>
+					<span class="price"><em>￥</em>58.00</span>
+				</a>
+			</li>
+			<li>
+				<a href="#"> 
+					<div class="bijia-title">200-499</div>
+					<span class="price"><em>￥</em>58.00 </span>
+				</a>
+			</li>		
+			<li>
+				<a href="#">
+					<div class="bijia-title">500</div>
+					<span class="price"><em>￥</em>58.00</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="price_bot">
+		<span class="span1">快递￥5</span>
+		<span class="span2">成交4.65万个</span>
+	</div>
+	<div class="warp_line">
+		<span class="span1"><b></b>买家保障</span>
+		<span class="span2"><b></b>15天包换</span>
+		<span class="span2"><b></b>48小时发货</span>
+	</div>
+	<div class="det baby">
+		<h3 class="tit">评价&nbsp;5人已评价<span class="showHide"><font>4.9好评</font><span class="hideSpan"></span></span></h3>
+		<!--<ul>
+	        <li>
+	            <a href="#" title=""><img src="http://img.b5m.com/image/T1UidsBX_s1RCvBVdK" alt=""></a>
+	        </li>
+		</ul>-->
+	</div>
+	<div class="img_box">
+		<div class="img_box_tit">
+			<div class="on btn1">图文详情</div>
+			<div class="btn2">产品属性</div>
+		</div>
+		<div class="img_box_img box1">
+			<img src="../images/product/img_box1.jpg" />
+			<img src="../images/product/img_box2.jpg" />
+		</div>
+		<div class="img_box_img box2" style="display: none;">
+			<img src="../images/product/img_box2.jpg" />
+		</div>
+	</div>
+	<div class="mask" style="display: none;"></div>
+	<div class="mask_box" style="display: none;">
+		<ul class="ul1">
+			<p>尺码</p>
+			<li class="on">L</li>
+			<li>LM</li>
+			<li>LM</li>
+			<li>MML</li>
+			<li>MMML</li>
+		</ul>
+		<ul class="ul2">
+			<p>颜色分类</p>
+			<li class="on">军绿色</li>
+			<li>玫瑰红</li>
+			<li>玫瑰红</li>
+			<li>玫瑰红</li>
+			<li>玫瑰红</li>
+			<li>玫瑰红</li>
+		</ul>
+		<div class="num">
+			<b>购买数量</b>
+			<div class="num_btn">
+				<span id="jia">+</span>
+				<input type="text" value="1">
+				<span id="jian">-</span>
+			</div>
+		</div>
+		<div>
+			<input type="submit" class="mask_btn" value="确定" />
+		</div>
+	</div>
+	<div class="cl"></div>
+	<footer class="footer">
+		<div class="buy_menu">
+			<div class="shoucang"><span></span>收藏</div>
+			<div class="btn_box">
+				<div class="menu_btn1">加入进货单</div>
+				<div class="menu_btn2">立即订购</div>
+			</div>
+		</div>
+	</footer>
+
+<script>
+	$(function  () {
+		$(".img_box_tit .btn1").click(function () {
+			$(".img_box_tit div").siblings().removeClass("on");
+			$(this).addClass("on");
+			$(".img_box .box1").show();
+			$(".img_box .box2").hide();
+		});
+		$(".img_box_tit .btn2").click(function () {
+			$(".img_box_tit div").siblings().removeClass("on");
+			$(this).addClass("on");
+			$(".img_box .box2").show();
+			$(".img_box .box1").hide();
+		})
+		$("#jia").click(function(){
+			var n=$(".num input").val();
+		    var num=parseInt(n)+1;
+		    $(".num input").val(num);
+		});
+		$("#jian").click(function(){
+			var n=$(".num input").val();
+		    var num=parseInt(n)-1;
+		    $(".num input").val(num);
+		    if(num<=0){$(".num input").val(0);}
+		});
+		
+		$(".menu_btn2").click(function  () {
+			$(".mask").show();
+			$(".mask_box").slideDown(500);
+		})
+		$(".mask,.mask_btn").click(function  () {
+   			$(".mask").hide();
+   			$(".mask_box").slideUp(500);
+		})
+		$(".mask_box .ul1 li").click(function  () {
+			$(".mask_box .ul1 li").removeClass("on");
+			$(this).addClass("on")
+		})
+		$(".mask_box .ul2 li").click(function  () {
+			$(".mask_box .ul2 li").removeClass("on");
+			$(this).addClass("on")
+		})
+	})
+</script>
+</body>
+</html>

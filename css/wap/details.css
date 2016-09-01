@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors kenny.wang (398188662@qq.com)
+ * @date    2014-04-07 21:49:46
+ */
+
+.detailsHead{margin: 10px; }
+.detailsHead img{width: 100%;}
+.detailsHead .txt_box{margin-top: 10px;width: 100%; padding-right:60px ;box-sizing: border-box;position: relative;}
+.detailsHead .txt_box p{font-size: 17px;  font-weight: normal;overflow : hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.detailsHead .txt_box .fenxiang{min-width: 30px; position: absolute;right: 0px; top: 0px; display: block; border-left: 1px solid #E5E5E5; text-align: center; margin-left: 10px; padding-left: 10px;padding-right: 10px; color: inherit;}
+.detailsHead .txt_box .fenxiang span{width: 20px;height: 20px; display: block; margin: 5px auto 0px auto; background: url(../../images/shoucang.jpg) -76px 0px no-repeat;}
+
+
+.footer .buy_menu{ height: 50px;position: fixed; left: 0px; bottom: 0px;width: 100%;overflow: hidden; }
+.footer .buy_menu .shoucang{position: absolute;left: 0px; top: 0px;height: 50px; width:60px;text-align: center;border-top: 1px solid #DDDDDD; background: #FFFFFF;float: left;}
+.footer .buy_menu .shoucang span{width: 25px; height: 25px; display: block; margin: 0 auto; background: url(../../images/shoucang.jpg) -25px 2px no-repeat; margin-top: 5px; }
+.footer .buy_menu .btn_box{width: 100%;float: left;padding-left:60px ;box-sizing: border-box;}
+.footer .buy_menu .btn_box .menu_btn1{ width: 50%;float: left; text-align: center; background: #ef9e9e; color: #FFFFFF; font-size: 20px; line-height: 50px; cursor: pointer;}
+.footer .buy_menu .btn_box .menu_btn2{ width: 50%;float: left; text-align: center; background: #d32639; color: #FFFFFF;font-size: 20px; line-height: 50px; cursor: pointer;}
+
+.parity ul{ border-top: 1px solid #e5e5e5; margin:0 10px; overflow: hidden;}
+.parity ul li{overflow: hidden;width: 33.3%; padding: 10px 0;float: left; }
+.parity ul li:last-child{border-bottom: 0;}
+.parity ul .icon{float: right;}
+.parity ul .icon img{width: 32px;height: 10px;float: right;margin: -15px 15px 0 0}
+.parity ul .price{color:#d32639;font-size: 18px; font-weight: 400; }
+.parity ul .price em{font-size: 14px;padding:0 5px 0 0;}
+.bijia-title{ height:25px;line-height:25px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:15px;color:#333;}
+.price_bot{margin: 0px 10px; padding: 10px 0; border-top: 1px solid #E5E5E5; overflow: hidden; color: #333333; font-size: 14px;}
+.price_bot .span2{margin-left: 100px;}
+.warp_line{border-top: 10px solid #f5f5f5;border-bottom: 10px solid #f5f5f5;}
+.warp_line span{padding-left:10px; height: 40px; line-height: 40px; display:inline-block;}
+.warp_line span b{width: 20px; height: 20px; margin-top: 9px; margin-right: 5px; float: left; display: inline-block; background: url(../../images/shoucang.jpg) -53px 2px no-repeat; }
+
+.det h3{height: 40px;background: #FFFFFF;line-height: 40px;text-indent: 10px;font-weight: normal;}
+
+.showHide{display: inline-block;height:;float: right;font-size: 13px;margin: 0 10px 0 0;cursor: pointer;}
+.showHide font{color: #d32639;}
+.showSpan{display: inline-block;height: 10px;width: 17px;background: url("icon_arrowBottom.png") no-repeat;vertical-align: middle;margin: -2px 0 0 5px;}
+.hideSpan{display: inline-block;height: 10px;width: 17px;background: url("icon_arrowBottom1.png") no-repeat;vertical-align: middle;margin: -2px 0 0 5px;}
+
+.img_box .img_box_tit{display: flex; display: -webkit-flex; border: 1px solid #DDDDDD; border-width:1px 0 1px 0; }
+.img_box .img_box_tit div{flex-grow: 1;  text-align: center; color: #666666; padding: 10px 0; cursor: pointer;}
+.img_box .img_box_tit div.on{border-bottom: 3px solid #d32639; color: #d32639 !important;}
+.img_box .img_box_img{ margin: 0px 10px;}
+.img_box .img_box_img img{width: 100%;padding: 10px 0px 10px 0px;}
+
+.mask{position: fixed;width: 100%; height: 100%; left: 0 ;  top: 0; background: rgba(0,0,0,0.5); z-index: 1001;}
+.mask_box{z-index: 1002; background: #FFFFFF; max-width: 640px; width: 100%; margin: 0 auto; position: fixed; bottom: 0px;}
+.mask_box ul{width: 90%; margin: 0 auto; overflow: hidden; padding: 10px 0;}
+.mask_box ul p{font-size: 14px;}
+.mask_box ul li{float: left;border: 1px solid #DDDDDD;margin-right: 10px; margin-top: 5px; padding: 7px 14px; border-radius: 4px;-webkit-border-radius: 4px; font-size: 14px;}
+.mask_box ul li:hover{border: 1px solid #d32639;}
+.mask_box ul li.on{border: 1px solid #d32639;}
+.mask_box .num{width: 90%; margin: 0 auto; font-size: 14px;margin-bottom: 50px; margin-top: 10px; overflow: hidden;}
+.mask_box .num b{ float: left; font-weight: normal;height:25px; line-height: 25px;}
+.mask_box .num span{border: 1px solid #DDDDDD;width: 25px; height:25px; display:inline-block; font-size: 14px; text-align: center;float: left;}
+.mask_box .num input{border:1px solid #DDDDDD;height: 25px; width: 100px; text-align: center; border-width: 1px 0 1px 0;float: left;}
+.mask_box .num .num_btn{ margin-left:15px; float:left;}
+.mask_box .mask_btn{ background: #d32639; border: none; color: #FFFFFF; width: 100%; padding: 15px 0; font-size: 14px; outline: none;}
+/* ------------- Retina ------------- */
+@media only screen and (-o-min-device-pixel-ratio: 2/1),
+       only screen and (min--moz-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio: 2),
+       only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 240dpi),
+       only screen and (min-resolution: 2dppx){
+       .detailsHead .txt_box p{font-size: 15px;}
+       .footer .buy_menu .menu_btn1{font-size: 17px; }
+       .footer .buy_menu .menu_btn2{font-size: 17px; }
+}
+       
+}
